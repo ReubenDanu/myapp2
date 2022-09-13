@@ -1,61 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css" >
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./style.css" />
     <title>Admin Dashboard</title>
-</head>
-<body>
-    <nav class="navigation" id="sidebar">
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="sidebar">
         <div class="logo">
-            <a href="http://127.0.0.1:5500/frontend/index.html">
-                <img src="../assets/icon.svg" alt="Toko Buku">
-            </a>
+          <img src="../assets/icon.svg" alt="Logo Buku" />
+          <p>Toko Buku</p>
         </div>
 
-        <div class="link-container">
-            <ul class="link">
-                <li class="title"><span>Buku</span></li>
-                <li class="sub-link">
-                    <a href="">
-                        <img src="../assets/Book_fill.png" alt="">
-                        <span>Buku</span>
-                    </a>
-                </li>
-                <li class="title"><span>Distributor</span></li>
-                <li class="sub-link">
-                    <a href="">
-                        <img src="../assets/Line_alt.png" alt="">
-                        <span>Distributor</span>
-                    </a>
-                </li>                
-                <li class="title"><span>Pemasok</span></li>
-                <li class="sub-link">
-                    <a href="">
-                        <img src="../assets/Box_fill.png" alt="">
-                        <span>Pemasok</span>
-                    </a>
-                </li>
-                <li class="title"><span>Penjualan</span></li>
-                <li class="sub-link">
-                    <a href="">
-                        <img src="../assets/Chart_fill.png" alt="">
-                        <span>Penjualan</span>
-                    </a>
-                </li>
-                <li class="title"><span>User</span></li>
-                <li class="sub-link">
-                    <a href="">
-                        <img src="../assets/User_alt_fill.png" alt="">
-                        <span>Manage User</span>
-                    </a>
-                </li>
-                <li></li>
-            </ul>
-        </div>
-
-    </nav>
-</body>
+        <ul>
+          <li>
+            <a href="#" class="active">
+              <span class="icon"
+                ><img src="../assets/Book_light.svg" alt=""
+              /></span>
+              <span class="item">Buku</span></a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><span class="icon"></span
+              ><img src="../assets/Arhives_alt_light.svg" alt="" /><span
+                class="item"
+                >Distributor</span
+              ></a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><img src="../assets/Box_light.svg" alt="" /><span class="icon"
+                >Pasok</span
+              ><span class="item"></span
+            ></a>
+          </li>
+          <li>
+            <a href="#"
+              ><span class="icon"
+                ><img src="../assets/Chart_light.svg" alt="" /></span
+              ><span class="item">Penjualan</span></a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><span class="icon"
+                ><img src="../assets/User_light.svg" alt="" /></span
+              ><span class="item">Admin</span
+            ></a>
+          </li>
+          <li>
+            <a href="#"><span class="icon"><img src="../assets/File_dock_light.svg" alt=""></span><span class="item">Laporan</span></a>
+          </li>
+          <li>
+            <a href="#"><span class="icon"><img src="../assets/Setting_line_light.svg" alt=""></span><span class="item">Pengaturan</span></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
 </html>

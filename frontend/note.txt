@@ -1,2 +1,8 @@
 sidebar
 main link -> buku, distributor, pasok, penjualan, 
+
+
+future update 
+-buat link side bar lebih sensible 
+judul sama sub link nya
+
